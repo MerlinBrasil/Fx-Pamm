@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		531924E919C870C400D54306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531924E819C870C400D54306 /* AppDelegate.swift */; };
-		531924EB19C870C400D54306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531924EA19C870C400D54306 /* ViewController.swift */; };
 		531924EE19C870C400D54306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531924EC19C870C400D54306 /* Main.storyboard */; };
 		531924F019C870C400D54306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531924EF19C870C400D54306 /* Images.xcassets */; };
 		531924F319C870C400D54306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 531924F119C870C400D54306 /* LaunchScreen.xib */; };
 		531924FF19C870C400D54306 /* Fx_PammTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531924FE19C870C400D54306 /* Fx_PammTests.swift */; };
+		5319250919C875BA00D54306 /* IndexesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319250819C875BA00D54306 /* IndexesViewController.swift */; };
+		5319250B19C875C300D54306 /* PammsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319250A19C875C300D54306 /* PammsViewController.swift */; };
+		5319253F19C87A1900D54306 /* FxIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319253E19C87A1900D54306 /* FxIndexModel.swift */; };
+		5319254119C87A2C00D54306 /* FxPammModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319254019C87A2C00D54306 /* FxPammModel.swift */; };
+		53496AEC19C9B4A0004890D4 /* FxIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53496AEB19C9B4A0004890D4 /* FxIndex.swift */; };
+		53496AEE19C9B598004890D4 /* NSStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53496AED19C9B598004890D4 /* NSStringParser.swift */; };
+		53496AF019C9CAD4004890D4 /* FxIndexTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53496AEF19C9CAD4004890D4 /* FxIndexTableViewCell.xib */; };
+		53496AF219C9CC6B004890D4 /* FxIndexTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53496AF119C9CC6B004890D4 /* FxIndexTableViewCell.swift */; };
+		537484F919CAE4A800B1F76D /* IndexDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537484F819CAE4A800B1F76D /* IndexDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +37,21 @@
 		531924E319C870C400D54306 /* Fx-Pamm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fx-Pamm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531924E719C870C400D54306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531924E819C870C400D54306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		531924EA19C870C400D54306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		531924ED19C870C400D54306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		531924EF19C870C400D54306 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		531924F219C870C400D54306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		531924F819C870C400D54306 /* Fx-PammTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fx-PammTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531924FD19C870C400D54306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531924FE19C870C400D54306 /* Fx_PammTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fx_PammTests.swift; sourceTree = "<group>"; };
+		5319250819C875BA00D54306 /* IndexesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexesViewController.swift; sourceTree = "<group>"; };
+		5319250A19C875C300D54306 /* PammsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PammsViewController.swift; sourceTree = "<group>"; };
+		5319253E19C87A1900D54306 /* FxIndexModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxIndexModel.swift; sourceTree = "<group>"; };
+		5319254019C87A2C00D54306 /* FxPammModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxPammModel.swift; sourceTree = "<group>"; };
+		53496AEB19C9B4A0004890D4 /* FxIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxIndex.swift; sourceTree = "<group>"; };
+		53496AED19C9B598004890D4 /* NSStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringParser.swift; sourceTree = "<group>"; };
+		53496AEF19C9CAD4004890D4 /* FxIndexTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FxIndexTableViewCell.xib; sourceTree = "<group>"; };
+		53496AF119C9CC6B004890D4 /* FxIndexTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxIndexTableViewCell.swift; sourceTree = "<group>"; };
+		537484F819CAE4A800B1F76D /* IndexDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +93,12 @@
 		531924E519C870C400D54306 /* Fx-Pamm */ = {
 			isa = PBXGroup;
 			children = (
+				5319253D19C879FD00D54306 /* Model */,
 				531924E819C870C400D54306 /* AppDelegate.swift */,
-				531924EA19C870C400D54306 /* ViewController.swift */,
 				531924EC19C870C400D54306 /* Main.storyboard */,
+				5319250819C875BA00D54306 /* IndexesViewController.swift */,
+				537484F819CAE4A800B1F76D /* IndexDetailsViewController.swift */,
+				5319250A19C875C300D54306 /* PammsViewController.swift */,
 				531924EF19C870C400D54306 /* Images.xcassets */,
 				531924F119C870C400D54306 /* LaunchScreen.xib */,
 				531924E619C870C400D54306 /* Supporting Files */,
@@ -110,6 +129,19 @@
 				531924FD19C870C400D54306 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5319253D19C879FD00D54306 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53496AED19C9B598004890D4 /* NSStringParser.swift */,
+				53496AF119C9CC6B004890D4 /* FxIndexTableViewCell.swift */,
+				53496AEB19C9B4A0004890D4 /* FxIndex.swift */,
+				5319253E19C87A1900D54306 /* FxIndexModel.swift */,
+				5319254019C87A2C00D54306 /* FxPammModel.swift */,
+				53496AEF19C9CAD4004890D4 /* FxIndexTableViewCell.xib */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +193,7 @@
 				TargetAttributes = {
 					531924E219C870C400D54306 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = SFWNSYN8YK;
 					};
 					531924F719C870C400D54306 = {
 						CreatedOnToolsVersion = 6.0;
@@ -194,6 +227,7 @@
 			files = (
 				531924EE19C870C400D54306 /* Main.storyboard in Resources */,
 				531924F319C870C400D54306 /* LaunchScreen.xib in Resources */,
+				53496AF019C9CAD4004890D4 /* FxIndexTableViewCell.xib in Resources */,
 				531924F019C870C400D54306 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +246,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				531924EB19C870C400D54306 /* ViewController.swift in Sources */,
 				531924E919C870C400D54306 /* AppDelegate.swift in Sources */,
+				5319250919C875BA00D54306 /* IndexesViewController.swift in Sources */,
+				5319253F19C87A1900D54306 /* FxIndexModel.swift in Sources */,
+				53496AEE19C9B598004890D4 /* NSStringParser.swift in Sources */,
+				5319250B19C875C300D54306 /* PammsViewController.swift in Sources */,
+				537484F919CAE4A800B1F76D /* IndexDetailsViewController.swift in Sources */,
+				53496AEC19C9B4A0004890D4 /* FxIndex.swift in Sources */,
+				53496AF219C9CC6B004890D4 /* FxIndexTableViewCell.swift in Sources */,
+				5319254119C87A2C00D54306 /* FxPammModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +377,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Fx-Pamm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -346,9 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Fx-Pamm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +454,7 @@
 				5319250419C870C400D54306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5319250519C870C400D54306 /* Build configuration list for PBXNativeTarget "Fx-PammTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +463,7 @@
 				5319250719C870C400D54306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
