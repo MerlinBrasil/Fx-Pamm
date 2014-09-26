@@ -1,0 +1,128 @@
+[
+    {
+        "name": "2010",
+        "url": "http://fx-trend.com/pamm/index/2010/",
+        "profit": "66.887%",
+        "startDate": "2013.09.21 14:00",
+        "details": {}
+    },
+    {
+        "name": "Aggressive",
+        "url": "http://fx-trend.com/pamm/index/Aggressive/",
+        "profit": "49.442%",
+        "startDate": "2012.10.20 12:00",
+        "details": {}
+    },
+    {
+        "name": "Balance",
+        "url": "http://fx-trend.com/pamm/index/Balance/",
+        "profit": "101.808%",
+        "startDate": "2012.07.21 13:40",
+        "details": {}
+    },
+    {
+        "name": "Balance2",
+        "url": "http://fx-trend.com/pamm/index/Balance2/",
+        "profit": "59.929%",
+        "startDate": "2013.09.21 14:00",
+        "details": {}
+    },
+    {
+        "name": "Balance3",
+        "url": "http://fx-trend.com/pamm/index/Balance3/",
+        "profit": "59.439%",
+        "startDate": "2013.09.21 14:00",
+        "details": {}
+    },
+    {
+        "name": "Diamond",
+        "url": "http://fx-trend.com/pamm/index/Diamond/",
+        "profit": "-1.690%",
+        "startDate": "2013.12.07 16:00",
+        "details": {}
+    },
+    {
+        "name": "Gold",
+        "url": "http://fx-trend.com/pamm/index/Gold/",
+        "profit": "108.116%",
+        "startDate": "2012.05.21 19:00",
+        "details": {}
+    },
+    {
+        "name": "GoldP2",
+        "url": "http://fx-trend.com/pamm/index/GoldP2/",
+        "profit": "-9.419%",
+        "startDate": "2012.05.21 19:00",
+        "details": {}
+    },
+    {
+        "name": "i500",
+        "url": "http://fx-trend.com/pamm/index/i500/",
+        "profit": "27.112%",
+        "startDate": "2014.05.31 16:00",
+        "details": {}
+    },
+    {
+        "name": "MAggressive",
+        "url": "http://fx-trend.com/pamm/index/MAggressive/",
+        "profit": "5.353%",
+        "startDate": "2014.08.30 15:00",
+        "details": {}
+    },
+    {
+        "name": "Million",
+        "url": "http://fx-trend.com/pamm/index/Million/",
+        "profit": "115.912%",
+        "startDate": "2012.10.20 12:00",
+        "details": {}
+    },
+    {
+        "name": "Million2",
+        "url": "http://fx-trend.com/pamm/index/Million2/",
+        "profit": "22.055%",
+        "startDate": "2013.06.29 14:00",
+        "details": {}
+    },
+    {
+        "name": "Million3",
+        "url": "http://fx-trend.com/pamm/index/Million3/",
+        "profit": "38.643%",
+        "startDate": "2014.04.05 15:00",
+        "details": {}
+    },
+    {
+        "name": "Platinum",
+        "url": "http://fx-trend.com/pamm/index/Platinum/",
+        "profit": "106.316%",
+        "startDate": "2012.05.21 19:00",
+        "details": {}
+    },
+    {
+        "name": "Platinum2",
+        "url": "http://fx-trend.com/pamm/index/Platinum2/",
+        "profit": "44.094%",
+        "startDate": "2013.09.28 16:00",
+        "details": {}
+    },
+    {
+        "name": "Prize",
+        "url": "http://fx-trend.com/pamm/index/Prize/",
+        "profit": "123.848%",
+        "startDate": "2013.02.16 15:01",
+        "details": {}
+    },
+    {
+        "name": "Prize2",
+        "url": "http://fx-trend.com/pamm/index/Prize2/",
+        "profit": "51.147%",
+        "startDate": "2014.03.15 14:00",
+        "details": {}
+    },
+    {
+        "name": "Victory2",
+        "url": "http://fx-trend.com/pamm/index/Victory2/",
+        "profit": "9.589%",
+        "startDate": "2014.08.30 15:00",
+        "details": {}
+    }
+]

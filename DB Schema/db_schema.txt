@@ -1,0 +1,94 @@
+--------------
+| pamm_index |
+--------------
+| id   		 | 
+| name 		 | 
+| url  		 | 
+| start_date | 
+| prifit     |
+--------------
+
+
+----------------------
+| pamm_index_details |
+----------------------
+| id	  			 | 
+| index_id 		     |
+| pamm_id		     |
+| share   			 |
+----------------------
+
+
+----------------------------
+| pamm_index_weekly_profit |
+----------------------------
+| id 	     			   | 
+| index_id     			   |
+| week_start 			   | 
+| week_end   			   |
+| profit       			   |
+----------------------------
+
+
+-----------------------------
+| pamm_index_monthly_profit |
+-----------------------------
+| id       					| 
+| index_id 					|
+| month    					| 
+| profit   					|
+-----------------------------
+
+
+-----------------------------
+| pamm						|
+-----------------------------
+| id 						|
+| name 						|
+| url 						|
+| start_date 				|
+| pamm_number 				|
+| traider_capital 			|
+| total_amount 				|
+| traid_period 				|
+| conditionaly_periodical 	|
+| total_prifit 				|
+| last_30_days_profit 		|
+-----------------------------
+
+
+-----------------------------
+| pamm_details 				|
+-----------------------------
+| id 						|
+| pamm_id 					|
+| status 					|
+| start_traider_capital 	|
+| relative_drawdown 		|
+| max_drawdown 				|
+| open_trade_count 			|
+| expecting_annual_profit 	|
+| offerta_open_date 		|
+| last_rollover_date 		|
+| next_rollover_date 		|
+-----------------------------
+
+----------------------------
+| pamm_weekly_profit 		|
+----------------------------
+| id 	     			   | 
+| pamm_id     			   |
+| week_start 			   | 
+| week_end   			   |
+| profit       			   |
+----------------------------
+
+
+-----------------------------
+| pamm_monthly_profit 		|
+-----------------------------
+| id       					| 
+| pamm_id 					|
+| month    					| 
+| profit   					|
+-----------------------------
