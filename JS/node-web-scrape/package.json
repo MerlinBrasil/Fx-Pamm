@@ -1,16 +1,16 @@
 {
-  "name"         : "node-web-scrape",
-  "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest",
-    "request"    : "latest",
-	"fs"		 : "latest",
-	"cron"		 : "latest",
-	"time"		 : "latest"
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "description": "Scrape le web.",
+  "main": "server.js",
+  "author": "Scotch",
+  "dependencies": {
+    "cheerio": "latest",
+    "cron": "latest",
+    "express": "latest",
+    "fs": "latest",
+    "request": "latest",
+    "sqlite3": "^3.0.0",
+    "time": "latest"
   }
 }
