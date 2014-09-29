@@ -1,27 +1,32 @@
 {
     "consistOf": [
         {
-            "name": "562521 (skalper)",
-            "url": "http://fx-trend.com/pamm/562521/",
+            "name": "518134 (Kraken)",
+            "pamm": "518134",
+            "url": "http://fx-trend.com/pamm/518134/",
+            "share": "20%"
+        },
+        {
+            "name": "518906 (Jborn)",
+            "pamm": "518906",
+            "url": "http://fx-trend.com/pamm/518906/",
+            "share": "20%"
+        },
+        {
+            "name": "520050 (votfx)",
+            "pamm": "520050",
+            "url": "http://fx-trend.com/pamm/520050/",
+            "share": "20%"
+        },
+        {
+            "name": "558616 (Ahmedos)",
+            "pamm": "558616",
+            "url": "http://fx-trend.com/pamm/558616/",
             "share": "20%"
         },
         {
             "name": "562521 (skalper)",
-            "url": "http://fx-trend.com/pamm/562521/",
-            "share": "20%"
-        },
-        {
-            "name": "562521 (skalper)",
-            "url": "http://fx-trend.com/pamm/562521/",
-            "share": "20%"
-        },
-        {
-            "name": "562521 (skalper)",
-            "url": "http://fx-trend.com/pamm/562521/",
-            "share": "20%"
-        },
-        {
-            "name": "562521 (skalper)",
+            "pamm": "562521",
             "url": "http://fx-trend.com/pamm/562521/",
             "share": "20%"
         }
@@ -46,6 +51,10 @@
         {
             "title": "22.09.2014 - 28.09.2014",
             "gain": "+2.84%"
+        },
+        {
+            "title": "29.09.2014 - 05.10.2014",
+            "gain": "0.00%"
         }
     ]
 }

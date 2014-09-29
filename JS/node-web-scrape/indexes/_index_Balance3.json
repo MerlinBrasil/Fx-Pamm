@@ -1,17 +1,20 @@
 {
     "consistOf": [
         {
-            "name": "534457 (Hozyin)",
-            "url": "http://fx-trend.com/pamm/534457/",
+            "name": "5995 (Avas)",
+            "pamm": "5995",
+            "url": "http://fx-trend.com/pamm/5995/",
+            "share": "34%"
+        },
+        {
+            "name": "500775 (Goldi)",
+            "pamm": "500775",
+            "url": "http://fx-trend.com/pamm/500775/",
             "share": "33%"
         },
         {
             "name": "534457 (Hozyin)",
-            "url": "http://fx-trend.com/pamm/534457/",
-            "share": "33%"
-        },
-        {
-            "name": "534457 (Hozyin)",
+            "pamm": "534457",
             "url": "http://fx-trend.com/pamm/534457/",
             "share": "33%"
         }
@@ -232,6 +235,10 @@
         {
             "title": "22.09.2014 - 28.09.2014",
             "gain": "+1.61%"
+        },
+        {
+            "title": "29.09.2014 - 05.10.2014",
+            "gain": "0.00%"
         }
     ]
 }

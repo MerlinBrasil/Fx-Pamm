@@ -1,42 +1,50 @@
 {
     "consistOf": [
         {
-            "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
+            "name": "11402 (Patrik)",
+            "pamm": "11402",
+            "url": "http://fx-trend.com/pamm/11402/",
+            "share": "12.5%"
+        },
+        {
+            "name": "11695 (Otmar)",
+            "pamm": "11695",
+            "url": "http://fx-trend.com/pamm/11695/",
+            "share": "12.5%"
+        },
+        {
+            "name": "519959 (Klyaksa)",
+            "pamm": "519959",
+            "url": "http://fx-trend.com/pamm/519959/",
+            "share": "12.5%"
+        },
+        {
+            "name": "558616 (Ahmedos)",
+            "pamm": "558616",
+            "url": "http://fx-trend.com/pamm/558616/",
+            "share": "12.5%"
+        },
+        {
+            "name": "561368 (sean)",
+            "pamm": "561368",
+            "url": "http://fx-trend.com/pamm/561368/",
+            "share": "12.5%"
+        },
+        {
+            "name": "561375 (Kuznets)",
+            "pamm": "561375",
+            "url": "http://fx-trend.com/pamm/561375/",
+            "share": "12.5%"
+        },
+        {
+            "name": "563732 (ubunt)",
+            "pamm": "563732",
+            "url": "http://fx-trend.com/pamm/563732/",
             "share": "12.5%"
         },
         {
             "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
-            "share": "12.5%"
-        },
-        {
-            "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
-            "share": "12.5%"
-        },
-        {
-            "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
-            "share": "12.5%"
-        },
-        {
-            "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
-            "share": "12.5%"
-        },
-        {
-            "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
-            "share": "12.5%"
-        },
-        {
-            "name": "563903 (twilight)",
-            "url": "http://fx-trend.com/pamm/563903/",
-            "share": "12.5%"
-        },
-        {
-            "name": "563903 (twilight)",
+            "pamm": "563903",
             "url": "http://fx-trend.com/pamm/563903/",
             "share": "12.5%"
         }
@@ -145,6 +153,10 @@
         {
             "title": "22.09.2014 - 28.09.2014",
             "gain": "+1.43%"
+        },
+        {
+            "title": "29.09.2014 - 05.10.2014",
+            "gain": "0.00%"
         }
     ]
 }

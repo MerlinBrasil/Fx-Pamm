@@ -5,16 +5,44 @@ var CronJob = require('cron').CronJob;
 
 var target  = 'http://fx-trend.com/pamm/rating/';
 
-var CronJob = require('cron').CronJob;
-var job = new CronJob({
-  cronTime: '*/5 * * * *',
-  onTick: function() {
-	  parseWork(target);
-  },
-  start: false
-});
+// var CronJob = require('cron').CronJob;
+// var job = new CronJob({
+//   cronTime: '*/5 * * * *',
+//   onTick: function() {
+// 	  parseWork(target);
+//   },
+//   start: false
+// });
+//
+// job.start();
 
-job.start();
+var str = "5.2%";
+str = str.replace('%', '');
+
+console.log(str);
+
+var file = "test.db";
+var exists = fs.existsSync(file);
+var sqlite3 = require("sqlite3").verbose();
+var db = new sqlite3.Database(file);
+
+// fs.exists('database', function (exists) {
+//   db = new sqlite3.Database('database.db');
+//
+//   if (!exists) {
+//     console.info('Creating database. This may take a while...');
+//     fs.readFile('DB_Schema/fx_pamm.sql', 'utf8', function (err, data) {
+//       if (err) throw err;
+//       db.exec(data, function (err) {
+//         if (err) throw err;
+//         console.info('Done.');
+//       });
+//     });
+//   }
+// });
+
+
+parseWork(target);
 
 function parseWork (target) {
 	
@@ -47,9 +75,8 @@ function parseWork (target) {
 				var metadata = {
 					name: indexName,
 					url: indexUrl,
-					profit: indexProfit,
-					startDate: indexStartDate,
-					details: {}
+					profit: indexProfit.replace('%', ''),
+					startDate: indexStartDate
 				};
 			
 				parsedResults.push(metadata);
@@ -58,9 +85,12 @@ function parseWork (target) {
 	
 		if (parsedResults.length > 0) {
 		
-			fs.writeFile('output.json', JSON.stringify(parsedResults, null, 4));
+			 fs.writeFile('indexes/indexes.json', JSON.stringify(parsedResults, null, 4));
+			// var stmt = db.prepare("INSERT INTO pamm_index (name, url, start_date, profit) VALUES (?, ?, ?, ?)");
 			for (idx = 0; idx < parsedResults.length; idx++) {
-				parseIndex(parsedResults[idx]);	
+				var index = parsedResults[idx];
+			// 	stmt.run(index.name, index.url, index.startDate, index.profit );
+				parseIndex(index);
 			}
 		}
 	});
@@ -82,11 +112,6 @@ function parseIndex(index) {
 			
 			var consistOf  = [];
 			var weeklyGain = [];
-			var indexdata  = {
-				name : '',
-				url  : '',
-				share: '',
-			};
 			
 			$('div .mb_center_cr table tr td table tr td table').children().each(function(el){
 
@@ -97,9 +122,12 @@ function parseIndex(index) {
 
 				var share = $(this).children('tr td').eq(1).text();
 
-				indexdata.name  = pammName;
-				indexdata.url   = pammURL;
-				indexdata.share = share;
+				var indexdata  = {
+					name 	: pammName,
+					pamm	: pammNumberFromURL(pammURL),
+					url  	: pammURL,
+					share	: share,
+				};
 				
 				consistOf.push(indexdata);
 
@@ -125,7 +153,16 @@ function parseIndex(index) {
 			pamms.weeklyGain = weeklyGain;
 		}
 		
-		fs.writeFile('indexes/' + index.name + '.json', JSON.stringify(pamms, null, 4));
+		fs.writeFile('indexes/' + '_index_' + index.name + '.json', JSON.stringify(pamms, null, 4));
 	});
+}
+
+function pammNumberFromURL(url) {
+	
+	var aPathComps = url.split("/"); 
+	if (aPathComps.length > 2) {
+		return aPathComps[aPathComps.length - 2];
+	}
+	return '';
 }
 

@@ -1,0 +1,226 @@
+{
+    "consistOf": [
+        {
+            "name": "5995 (Avas)",
+            "pamm": "5995",
+            "url": "http://fx-trend.com/pamm/5995/",
+            "share": "5%"
+        },
+        {
+            "name": "6482 (TP)",
+            "pamm": "6482",
+            "url": "http://fx-trend.com/pamm/6482/",
+            "share": "5%"
+        },
+        {
+            "name": "7031 (sven)",
+            "pamm": "7031",
+            "url": "http://fx-trend.com/pamm/7031/",
+            "share": "4%"
+        },
+        {
+            "name": "7061 (Valex)",
+            "pamm": "7061",
+            "url": "http://fx-trend.com/pamm/7061/",
+            "share": "5%"
+        },
+        {
+            "name": "7093 (AlexZhuk)",
+            "pamm": "7093",
+            "url": "http://fx-trend.com/pamm/7093/",
+            "share": "5%"
+        },
+        {
+            "name": "7165 (veronika)",
+            "pamm": "7165",
+            "url": "http://fx-trend.com/pamm/7165/",
+            "share": "4%"
+        },
+        {
+            "name": "7187 (veronika)",
+            "pamm": "7187",
+            "url": "http://fx-trend.com/pamm/7187/",
+            "share": "4%"
+        },
+        {
+            "name": "9035 (veronika)",
+            "pamm": "9035",
+            "url": "http://fx-trend.com/pamm/9035/",
+            "share": "4%"
+        },
+        {
+            "name": "10253 (investobolin)",
+            "pamm": "10253",
+            "url": "http://fx-trend.com/pamm/10253/",
+            "share": "4%"
+        },
+        {
+            "name": "11402 (Patrik)",
+            "pamm": "11402",
+            "url": "http://fx-trend.com/pamm/11402/",
+            "share": "4%"
+        },
+        {
+            "name": "18550 (sven)",
+            "pamm": "18550",
+            "url": "http://fx-trend.com/pamm/18550/",
+            "share": "4%"
+        },
+        {
+            "name": "518134 (Kraken)",
+            "pamm": "518134",
+            "url": "http://fx-trend.com/pamm/518134/",
+            "share": "4%"
+        },
+        {
+            "name": "518906 (Jborn)",
+            "pamm": "518906",
+            "url": "http://fx-trend.com/pamm/518906/",
+            "share": "4%"
+        },
+        {
+            "name": "519959 (Klyaksa)",
+            "pamm": "519959",
+            "url": "http://fx-trend.com/pamm/519959/",
+            "share": "4%"
+        },
+        {
+            "name": "520050 (votfx)",
+            "pamm": "520050",
+            "url": "http://fx-trend.com/pamm/520050/",
+            "share": "4%"
+        },
+        {
+            "name": "534457 (Hozyin)",
+            "pamm": "534457",
+            "url": "http://fx-trend.com/pamm/534457/",
+            "share": "4%"
+        },
+        {
+            "name": "558616 (Ahmedos)",
+            "pamm": "558616",
+            "url": "http://fx-trend.com/pamm/558616/",
+            "share": "4%"
+        },
+        {
+            "name": "559259 (votfx)",
+            "pamm": "559259",
+            "url": "http://fx-trend.com/pamm/559259/",
+            "share": "4%"
+        },
+        {
+            "name": "559983 (votfx)",
+            "pamm": "559983",
+            "url": "http://fx-trend.com/pamm/559983/",
+            "share": "4%"
+        },
+        {
+            "name": "561368 (sean)",
+            "pamm": "561368",
+            "url": "http://fx-trend.com/pamm/561368/",
+            "share": "4%"
+        },
+        {
+            "name": "561375 (Kuznets)",
+            "pamm": "561375",
+            "url": "http://fx-trend.com/pamm/561375/",
+            "share": "4%"
+        },
+        {
+            "name": "562521 (skalper)",
+            "pamm": "562521",
+            "url": "http://fx-trend.com/pamm/562521/",
+            "share": "4%"
+        },
+        {
+            "name": "563732 (ubunt)",
+            "pamm": "563732",
+            "url": "http://fx-trend.com/pamm/563732/",
+            "share": "4%"
+        },
+        {
+            "name": "563903 (twilight)",
+            "pamm": "563903",
+            "url": "http://fx-trend.com/pamm/563903/",
+            "share": "4%"
+        }
+    ],
+    "weeklyGain": [
+        {
+            "title": "26.05.2014 - 01.06.2014",
+            "gain": "0.00%"
+        },
+        {
+            "title": "02.06.2014 - 08.06.2014",
+            "gain": "+1.17%"
+        },
+        {
+            "title": "09.06.2014 - 15.06.2014",
+            "gain": "+0.91%"
+        },
+        {
+            "title": "16.06.2014 - 22.06.2014",
+            "gain": "+1.77%"
+        },
+        {
+            "title": "23.06.2014 - 29.06.2014",
+            "gain": "+0.82%"
+        },
+        {
+            "title": "30.06.2014 - 06.07.2014",
+            "gain": "+1.23%"
+        },
+        {
+            "title": "07.07.2014 - 13.07.2014",
+            "gain": "+1.40%"
+        },
+        {
+            "title": "14.07.2014 - 20.07.2014",
+            "gain": "+1.54%"
+        },
+        {
+            "title": "21.07.2014 - 27.07.2014",
+            "gain": "+0.82%"
+        },
+        {
+            "title": "28.07.2014 - 03.08.2014",
+            "gain": "+1.78%"
+        },
+        {
+            "title": "04.08.2014 - 10.08.2014",
+            "gain": "+1.22%"
+        },
+        {
+            "title": "11.08.2014 - 17.08.2014",
+            "gain": "+1.25%"
+        },
+        {
+            "title": "18.08.2014 - 24.08.2014",
+            "gain": "-0.02%"
+        },
+        {
+            "title": "25.08.2014 - 31.08.2014",
+            "gain": "+1.51%"
+        },
+        {
+            "title": "01.09.2014 - 07.09.2014",
+            "gain": "+1.64%"
+        },
+        {
+            "title": "08.09.2014 - 14.09.2014",
+            "gain": "-0.15%"
+        },
+        {
+            "title": "15.09.2014 - 21.09.2014",
+            "gain": "+1.83%"
+        },
+        {
+            "title": "22.09.2014 - 28.09.2014",
+            "gain": "+0.68%"
+        },
+        {
+            "title": "29.09.2014 - 05.10.2014",
+            "gain": "+0.01%"
+        }
+    ]
+}
