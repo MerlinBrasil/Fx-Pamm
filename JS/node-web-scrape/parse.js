@@ -4,6 +4,7 @@ var fs = require('fs');
 var CronJob = require('cron').CronJob;
 
 var target  = 'http://fx-trend.com/pamm/rating/';
+var pammPageURL = target + '?rep_page=';
 
 // var CronJob = require('cron').CronJob;
 // var job = new CronJob({
@@ -15,11 +16,6 @@ var target  = 'http://fx-trend.com/pamm/rating/';
 // });
 //
 // job.start();
-
-var str = "5.2%";
-str = str.replace('%', '');
-
-console.log(str);
 
 var file = "test.db";
 var exists = fs.existsSync(file);
@@ -46,8 +42,6 @@ parseWork(target);
 
 function parseWork (target) {
 	
-	console.log("!!!!!!!!!!!! Parser Work stared at " + new Date() + "!!!!!!!!!!!!");
-	
 	var parsedResults = [];
 	
 	request(target, function(err, response, body){
@@ -55,13 +49,28 @@ function parseWork (target) {
 		if (!err && response.statusCode == 200) {
 			$ = cheerio.load(body);
 		
-			indexes_form = $('form').filter(function(){
+			// Indexes form
+			var indexes_form = $('form').filter(function(){
 				return $(this).attr('name') === 'rep_index';
 			});
 		
-			indexes_trs = indexes_form.find('tr').filter(function(){
+			var indexes_trs = indexes_form.find('tr').filter(function(){
 				return $(this).attr('class') != 'my_accounts_table_first' && $(this).children().length > 1;
 			});
+		
+			// Pamms form
+			var pamm_form = $('form').filter(function(){
+				return $(this).attr('name') === 'rep';
+			});
+			
+			// Pamms 2.0 form
+			var pamm2_0_form = $('form').filter(function(){
+				return $(this).attr('name') === 'rep_pamm2_0';
+			});
+			
+			parsePamms(pamm_form);
+
+			return;
 		
 			for (index = 0; index < indexes_trs.length; index++) {
 				tr = indexes_trs[index];
@@ -166,3 +175,91 @@ function pammNumberFromURL(url) {
 	return '';
 }
 
+/**
+	Parse pamm accounts
+*/
+function parsePamms(form) {
+	
+	console.log('!!!!!!!!!!!!  parsePamms !!!!!!!!!!!! ');
+	
+	var trs = $(form).find('div.plashka div.pl_main div.pl_info table.my_accounts_table tr');
+	
+	var pages_count_td  = trs.children('td').filter(function(el){
+		return $(this).attr('colspan') === '11' && $(this).attr('align') === 'center';
+	});
+	
+	var lastPageURL = pages_count_td.children('a').last().attr('href');	
+	var pagesCount = Number(lastPageURL.substring(lastPageURL.indexOf('=') + 1));
+	
+	parsePageWithContent(trs);
+	
+	if (pagesCount > 2) {
+		
+		for (var pageIdx = 2; pageIdx <= pagesCount; pageIdx++) {
+			
+			var pageUrl = pammPageURL + pageIdx;
+			console.log(pageUrl);
+			request(pageUrl, function(err, response, body){
+				if (!err && response.statusCode == 200) {
+					$ = cheerio.load(body);
+					
+					// Pamms form
+					var pamm_form = $('form').filter(function(){
+						return $(this).attr('name') === 'rep';
+					});
+					
+					var trs = $(pamm_form).find('div.plashka div.pl_main div.pl_info table.my_accounts_table tr');
+					parsePageWithContent(trs);
+				} else {
+					console.log("ERROR!!!!");
+					console.log(err);
+				}
+			});
+		}
+	}
+}
+
+function parsePageWithContent(content) {
+	
+	$(content).each(function(el){
+		
+		var td_children = $(this).children('td');
+		var td_child = $(td_children).first();
+		
+		if ($(td_child).hasClass('mat_number')) {
+			// URL with name
+			
+			var detailsUrl = $(td_children).eq(0).children('a').first().attr('href');
+			var pammName = $(td_children).eq(0).children('a').first().text();
+			var pammNumber = pammNumberFromURL(detailsUrl);
+			var creationDate = $(td_children).eq(2).text();
+			var traidersCapital = Number($(td_children).eq(3).text());
+			var investorsCapital = Number($(td_children).eq(4).text());
+			var traidPeriod = $(td_children).eq(5).text();
+			var conditionalyPeriodical = $(td_children).eq(6).text() === 'Yes';
+			var profit = Number($(td_children).eq(7).text().replace('%',''));
+			var last30DaysProfit = Number($(td_children).eq(8).text().replace('%',''));
+			var ralativeDropdown = Number($(td_children).eq(9).text().replace('%',''));
+			var maxDropdown = Number($(td_children).eq(10).text().replace('%',''));
+			
+			var pamm_description = {
+				detailsUrl: detailsUrl,
+				pammName: pammName,
+				pammNumber: pammNumber,
+				creationDate : creationDate,
+				traidersCapital: traidersCapital,
+				investorsCapital: investorsCapital,
+				traidPeriod: traidPeriod,
+				conditionalyPeriodical: conditionalyPeriodical,
+				profit: profit,
+				last30DaysProfit: last30DaysProfit,
+				ralativeDropdown: ralativeDropdown,
+				maxDropdown: maxDropdown
+			}
+			
+			fs.writeFile('pamms/' + '_' + pammNumber + '_' + pammName + '.json', JSON.stringify(pamm_description, null, 4));
+			console.log(pammName + '-' + pammNumber);
+			console.log('---------------------------------');
+		}
+	})
+}
