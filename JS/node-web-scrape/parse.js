@@ -38,62 +38,67 @@ var db = new sqlite3.Database(file);
 // });
 
 
-parseWork(target);
+fs.readdir('parsing_results/pamms/', function(err, files){
+	console.log(files.length);
+});
+
+
+// parseWork(target);
 
 function parseWork (target) {
-	
+
 	var parsedResults = [];
-	
+
 	request(target, function(err, response, body){
-	
+
 		if (!err && response.statusCode == 200) {
 			$ = cheerio.load(body);
-		
+
 			// Indexes form
 			var indexes_form = $('form').filter(function(){
 				return $(this).attr('name') === 'rep_index';
 			});
-		
+
 			var indexes_trs = indexes_form.find('tr').filter(function(){
 				return $(this).attr('class') != 'my_accounts_table_first' && $(this).children().length > 1;
 			});
-		
+
 			// Pamms form
 			var pamm_form = $('form').filter(function(){
 				return $(this).attr('name') === 'rep';
 			});
-			
+
 			// Pamms 2.0 form
 			var pamm2_0_form = $('form').filter(function(){
 				return $(this).attr('name') === 'rep_pamm2_0';
 			});
-			
+
 			parsePamms(pamm_form);
 
 			return;
-		
+
 			for (index = 0; index < indexes_trs.length; index++) {
 				tr = indexes_trs[index];
-			
+
 				var indexName = $(tr).children().eq(0).children('a').text();
 				var indexUrl = $(tr).children().eq(0).children('a').attr('href');
 				var indexProfit = $(tr).children().eq(1).text();
 				var indexStartDate = $(tr).children().eq(2).text();
-			
-			
+
+
 				var metadata = {
 					name: indexName,
 					url: indexUrl,
 					profit: indexProfit.replace('%', ''),
 					startDate: indexStartDate
 				};
-			
+
 				parsedResults.push(metadata);
 			}
 		}
-	
+
 		if (parsedResults.length > 0) {
-		
+
 			 fs.writeFile('indexes/indexes.json', JSON.stringify(parsedResults, null, 4));
 			// var stmt = db.prepare("INSERT INTO pamm_index (name, url, start_date, profit) VALUES (?, ?, ?, ?)");
 			for (idx = 0; idx < parsedResults.length; idx++) {
@@ -106,22 +111,22 @@ function parseWork (target) {
 }
 
 function parseIndex(index) {
-	
+
 	var pamms = {
 		consistOf : [],
 		weeklyGain: []
 	};
-	
+
 	request(index.url, function(err, response, body){
-		
+
 		console.log('Processing data for index: ' + index.name);
-		
+
 		if (!err && response.statusCode == 200) {
 			$ = cheerio.load(body);
-			
+
 			var consistOf  = [];
 			var weeklyGain = [];
-			
+
 			$('div .mb_center_cr table tr td table tr td table').children().each(function(el){
 
 				// Getting urls, names, and % parts of pamms wich are in an index;
@@ -137,11 +142,11 @@ function parseIndex(index) {
 					url  	: pammURL,
 					share	: share,
 				};
-				
+
 				consistOf.push(indexdata);
 
 			});
-			
+
 			$('div .mb_center_cr table tr td table.my_accounts_table').children('tr').filter(function(el){
 
 				return ( $(this).attr('class') != 'my_accounts_table_first' &&
@@ -157,18 +162,18 @@ function parseIndex(index) {
 				weeklyGain.push(week)
 
 			});
-			
+
 			pamms.consistOf  = consistOf;
 			pamms.weeklyGain = weeklyGain;
 		}
-		
-		fs.writeFile('indexes/' + '_index_' + index.name + '.json', JSON.stringify(pamms, null, 4));
+
+		fs.writeFile('parsing_results/indexes/' + '_index_' + index.name + '.json', JSON.stringify(pamms, null, 4));
 	});
 }
 
 function pammNumberFromURL(url) {
-	
-	var aPathComps = url.split("/"); 
+
+	var aPathComps = url.split("/");
 	if (aPathComps.length > 2) {
 		return aPathComps[aPathComps.length - 2];
 	}
@@ -179,35 +184,36 @@ function pammNumberFromURL(url) {
 	Parse pamm accounts
 */
 function parsePamms(form) {
-	
+
 	console.log('!!!!!!!!!!!!  parsePamms !!!!!!!!!!!! ');
-	
+
 	var trs = $(form).find('div.plashka div.pl_main div.pl_info table.my_accounts_table tr');
-	
+
 	var pages_count_td  = trs.children('td').filter(function(el){
 		return $(this).attr('colspan') === '11' && $(this).attr('align') === 'center';
 	});
-	
-	var lastPageURL = pages_count_td.children('a').last().attr('href');	
+
+	var lastPageURL = pages_count_td.children('a').last().attr('href');
 	var pagesCount = Number(lastPageURL.substring(lastPageURL.indexOf('=') + 1));
-	
+
 	parsePageWithContent(trs);
-	
+
 	if (pagesCount > 2) {
-		
+
 		for (var pageIdx = 2; pageIdx <= pagesCount; pageIdx++) {
-			
+
 			var pageUrl = pammPageURL + pageIdx;
 			console.log(pageUrl);
+
 			request(pageUrl, function(err, response, body){
 				if (!err && response.statusCode == 200) {
 					$ = cheerio.load(body);
-					
+
 					// Pamms form
 					var pamm_form = $('form').filter(function(){
 						return $(this).attr('name') === 'rep';
 					});
-					
+
 					var trs = $(pamm_form).find('div.plashka div.pl_main div.pl_info table.my_accounts_table tr');
 					parsePageWithContent(trs);
 				} else {
@@ -220,15 +226,15 @@ function parsePamms(form) {
 }
 
 function parsePageWithContent(content) {
-	
+
 	$(content).each(function(el){
-		
+
 		var td_children = $(this).children('td');
 		var td_child = $(td_children).first();
-		
+
 		if ($(td_child).hasClass('mat_number')) {
 			// URL with name
-			
+
 			var detailsUrl = $(td_children).eq(0).children('a').first().attr('href');
 			var pammName = $(td_children).eq(0).children('a').first().text();
 			var pammNumber = pammNumberFromURL(detailsUrl);
@@ -241,7 +247,7 @@ function parsePageWithContent(content) {
 			var last30DaysProfit = Number($(td_children).eq(8).text().replace('%',''));
 			var ralativeDropdown = Number($(td_children).eq(9).text().replace('%',''));
 			var maxDropdown = Number($(td_children).eq(10).text().replace('%',''));
-			
+
 			var pamm_description = {
 				detailsUrl: detailsUrl,
 				pammName: pammName,
@@ -256,10 +262,106 @@ function parsePageWithContent(content) {
 				ralativeDropdown: ralativeDropdown,
 				maxDropdown: maxDropdown
 			}
-			
-			fs.writeFile('pamms/' + '_' + pammNumber + '_' + pammName + '.json', JSON.stringify(pamm_description, null, 4));
+
+			fs.writeFile('parsing_results/pamms/' + '_' + pammNumber + '_' + pammName + '.json', JSON.stringify(pamm_description, null, 4));
 			console.log(pammName + '-' + pammNumber);
 			console.log('---------------------------------');
+			
+			parsePammDetails(pamm_description.detailsUrl);
 		}
 	})
+}
+
+function parsePammDetails(targetURL){
+
+	console.log(targetURL);
+
+	request(targetURL, function(err, response, body){
+		if (!err && response.statusCode == 200) {
+
+			$ = cheerio.load(body);
+
+			var pamm_details = {
+				number : 0,
+				isOpen : false,
+				startingTraiderCapital: 0,
+				currentTraiderCapital: 0,
+				investorsCapital: 0,
+				ralativeDropdown: 0,
+				maxDropdown: 0,
+				openTraidsCount: 0,
+				expectedAnnualProfit: 0,
+				openOffertaDate: '',
+				firstRollowerDate: '',
+				previousRollowerDate: '',
+				nextRollowerDate: '',
+
+				monthlyProfit:[],
+				weeklyProfit:[],
+			};
+
+			var centerTable = $('div.mb_center_cr').children('table').eq(0);
+			
+			var childrenTables = $(centerTable).find('table');
+			
+			var detailsTable = $(childrenTables).eq(0);
+
+			parsePammDetailsTable(detailsTable, pamm_details);	
+
+			if (childrenTables.length === 3) {
+				var monthlyGainTable = $(childrenTables).eq(1);
+				var weeklyGainTable = $(childrenTables).eq(2);			
+				
+				parsePammGainTable(monthlyGainTable, pamm_details.monthlyProfit);	
+			} else {
+				var weeklyGainTable = $(childrenTables).eq(1);
+			}
+			
+			parsePammGainTable(weeklyGainTable, pamm_details.weeklyProfit);
+			
+			fs.writeFile('parsing_results/pamm_details/' + '_' + pamm_details.number + '_details_' +  '.json', JSON.stringify(pamm_details, null, 4));
+
+		} else {
+			console.log("ERROR!!!!");
+			console.log(err);
+		}
+	});
+}
+
+
+function parsePammDetailsTable(table, result) {
+	result.number = $(table).children('tr').eq(0).children('td').eq(1).text();
+	result.isOpen = $(table).children('tr').eq(1).children('td').eq(1).text();
+	result.startingTraiderCapital = $(table).children('tr').eq(2).children('td').eq(1).text();
+	result.currentTraiderCapital = $(table).children('tr').eq(3).children('td').eq(1).text();
+	result.investorsCapital = $(table).children('tr').eq(4).children('td').eq(1).text();
+	result.ralativeDropdown = $(table).children('tr').eq(5).children('td').eq(1).text();
+	result.maxDropdown = $(table).children('tr').eq(6).children('td').eq(1).text();
+	result.openTraidsCount = $(table).children('tr').eq(8).children('td').eq(1).text();
+	result.expectedAnnualProfit = $(table).children('tr').eq(9).children('td').eq(1).text();
+	result.openOffertaDate = $(table).children('tr').eq(10).children('td').eq(1).text();
+	result.firstRollowerDate = $(table).children('tr').eq(11).children('td').eq(1).text();
+	result.previousRollowerDate = $(table).children('tr').eq(12).children('td').eq(1).text();
+	result.nextRollowerDate = $(table).children('tr').eq(13).children('td').eq(1).text();
+
+}
+
+function parsePammGainTable(table, result) {
+
+	$(table).children('tr').filter(function(el){
+
+		return ( $(this).attr('class') != 'my_accounts_table_first' &&
+				 $(this).children('td').eq(0).attr('class') != 'mat_separ' );
+
+	}).each(function(tr){
+		
+		var details = {
+			text: $(this).children('td').eq(0).text(),
+			profit: $(this).children('td').eq(1).text(),
+			inverstorProfit: $(this).children('td').eq(2).text(),
+		};
+
+		result.push(details);
+
+	});
 }

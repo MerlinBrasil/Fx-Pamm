@@ -1,0 +1,244 @@
+{
+    "number": "560158",
+    "isOpen": "Open",
+    "startingTraiderCapital": "1200.00 USD",
+    "currentTraiderCapital": "234.61 USD",
+    "investorsCapital": "0.00 USD",
+    "ralativeDropdown": "82.17%",
+    "maxDropdown": "14.25%",
+    "openTraidsCount": "1",
+    "expectedAnnualProfit": "-196.42%",
+    "openOffertaDate": "14.12.2013 21:19",
+    "firstRollowerDate": "21.12.2013 10:00",
+    "previousRollowerDate": "27.09.2014 11:28",
+    "nextRollowerDate": "04.10.2014 10:00",
+    "monthlyProfit": [
+        {
+            "text": "December 2013",
+            "profit": "-100.26",
+            "inverstorProfit": "-7.42%"
+        },
+        {
+            "text": "January 2014",
+            "profit": "-269.37",
+            "inverstorProfit": "-18.97%"
+        },
+        {
+            "text": "February 2014",
+            "profit": "-410.69",
+            "inverstorProfit": "-23.46%"
+        },
+        {
+            "text": "March 2014",
+            "profit": "-78.89",
+            "inverstorProfit": "-15.63%"
+        },
+        {
+            "text": "April 2014",
+            "profit": "-37.70",
+            "inverstorProfit": "-8.88%"
+        },
+        {
+            "text": "May 2014",
+            "profit": "3.31",
+            "inverstorProfit": "0.85%"
+        },
+        {
+            "text": "June 2014",
+            "profit": "0.42",
+            "inverstorProfit": "0.11%"
+        },
+        {
+            "text": "July 2014",
+            "profit": "8.68",
+            "inverstorProfit": "3.30%"
+        },
+        {
+            "text": "August 2014",
+            "profit": "173.57",
+            "inverstorProfit": "27.11%"
+        },
+        {
+            "text": "September 2014",
+            "profit": "-284.99",
+            "inverstorProfit": "-50.15%"
+        },
+        {
+            "text": "October 2014",
+            "profit": "-127.80",
+            "inverstorProfit": "-35.26%"
+        }
+    ],
+    "weeklyProfit": [
+        {
+            "text": "16.12.2013 - 22.12.2013",
+            "profit": "-173.14",
+            "inverstorProfit": "-14.43%"
+        },
+        {
+            "text": "23.12.2013 - 29.12.2013",
+            "profit": "17.50",
+            "inverstorProfit": "1.70%"
+        },
+        {
+            "text": "30.12.2013 - 05.01.2014",
+            "profit": "175.32",
+            "inverstorProfit": "16.79%"
+        },
+        {
+            "text": "06.01.2014 - 12.01.2014",
+            "profit": "-281.24",
+            "inverstorProfit": "-23.06%"
+        },
+        {
+            "text": "13.01.2014 - 19.01.2014",
+            "profit": "48.25",
+            "inverstorProfit": "4.59%"
+        },
+        {
+            "text": "20.01.2014 - 26.01.2014",
+            "profit": "-240.24",
+            "inverstorProfit": "-23.18%"
+        },
+        {
+            "text": "27.01.2014 - 02.02.2014",
+            "profit": "83.92",
+            "inverstorProfit": "11.19%"
+        },
+        {
+            "text": "03.02.2014 - 09.02.2014",
+            "profit": "-542.79",
+            "inverstorProfit": "-65.10%"
+        },
+        {
+            "text": "10.02.2014 - 16.02.2014",
+            "profit": "0.95",
+            "inverstorProfit": "0.33%"
+        },
+        {
+            "text": "17.02.2014 - 23.02.2014",
+            "profit": "-63.25",
+            "inverstorProfit": "-21.67%"
+        },
+        {
+            "text": "24.02.2014 - 02.03.2014",
+            "profit": "194.40",
+            "inverstorProfit": "62.98%"
+        },
+        {
+            "text": "03.03.2014 - 09.03.2014",
+            "profit": "0.52",
+            "inverstorProfit": "0.10%"
+        },
+        {
+            "text": "10.03.2014 - 16.03.2014",
+            "profit": "-80.36",
+            "inverstorProfit": "-15.96%"
+        },
+        {
+            "text": "17.03.2014 - 23.03.2014",
+            "profit": "0.95",
+            "inverstorProfit": "0.22%"
+        },
+        {
+            "text": "07.04.2014 - 13.04.2014",
+            "profit": "0.48",
+            "inverstorProfit": "0.11%"
+        },
+        {
+            "text": "21.04.2014 - 27.04.2014",
+            "profit": "-38.18",
+            "inverstorProfit": "-8.99%"
+        },
+        {
+            "text": "28.04.2014 - 04.05.2014",
+            "profit": "0.47",
+            "inverstorProfit": "0.12%"
+        },
+        {
+            "text": "05.05.2014 - 11.05.2014",
+            "profit": "0.47",
+            "inverstorProfit": "0.12%"
+        },
+        {
+            "text": "12.05.2014 - 18.05.2014",
+            "profit": "0.47",
+            "inverstorProfit": "0.12%"
+        },
+        {
+            "text": "19.05.2014 - 25.05.2014",
+            "profit": "1.43",
+            "inverstorProfit": "0.37%"
+        },
+        {
+            "text": "26.05.2014 - 01.06.2014",
+            "profit": "0.47",
+            "inverstorProfit": "0.12%"
+        },
+        {
+            "text": "16.06.2014 - 22.06.2014",
+            "profit": "0.42",
+            "inverstorProfit": "0.11%"
+        },
+        {
+            "text": "30.06.2014 - 06.07.2014",
+            "profit": "47.42",
+            "inverstorProfit": "12.15%"
+        },
+        {
+            "text": "07.07.2014 - 13.07.2014",
+            "profit": "-0.01",
+            "inverstorProfit": "0.00%"
+        },
+        {
+            "text": "14.07.2014 - 20.07.2014",
+            "profit": "-38.73",
+            "inverstorProfit": "-8.85%"
+        },
+        {
+            "text": "28.07.2014 - 03.08.2014",
+            "profit": "2.75",
+            "inverstorProfit": "0.46%"
+        },
+        {
+            "text": "04.08.2014 - 10.08.2014",
+            "profit": "0.15",
+            "inverstorProfit": "0.03%"
+        },
+        {
+            "text": "11.08.2014 - 17.08.2014",
+            "profit": "-30.94",
+            "inverstorProfit": "-6.17%"
+        },
+        {
+            "text": "18.08.2014 - 24.08.2014",
+            "profit": "201.61",
+            "inverstorProfit": "32.79%"
+        },
+        {
+            "text": "01.09.2014 - 07.09.2014",
+            "profit": "-170.17",
+            "inverstorProfit": "-26.29%"
+        },
+        {
+            "text": "08.09.2014 - 14.09.2014",
+            "profit": "-63.16",
+            "inverstorProfit": "-13.23%"
+        },
+        {
+            "text": "15.09.2014 - 21.09.2014",
+            "profit": "38.36",
+            "inverstorProfit": "9.26%"
+        },
+        {
+            "text": "22.09.2014 - 28.09.2014",
+            "profit": "-90.02",
+            "inverstorProfit": "-19.90%"
+        },
+        {
+            "text": "29.09.2014 - 05.10.2014",
+            "profit": "-127.80",
+            "inverstorProfit": "-35.26%"
+        }
+    ]
+}

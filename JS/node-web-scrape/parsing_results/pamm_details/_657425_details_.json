@@ -1,0 +1,29 @@
+{
+    "number": "657425",
+    "isOpen": "Open",
+    "startingTraiderCapital": "500.00 USD",
+    "currentTraiderCapital": "518.20 USD",
+    "investorsCapital": "0.00 USD",
+    "ralativeDropdown": "0.00%",
+    "maxDropdown": "5.19%",
+    "openTraidsCount": "1",
+    "expectedAnnualProfit": "189.28%",
+    "openOffertaDate": "28.09.2014 15:57",
+    "firstRollowerDate": "04.10.2014 10:00",
+    "previousRollowerDate": "18.10.2014 10:00",
+    "nextRollowerDate": "",
+    "monthlyProfit": [
+        {
+            "text": "October 2014",
+            "profit": "18.20",
+            "inverstorProfit": "3.64%"
+        }
+    ],
+    "weeklyProfit": [
+        {
+            "text": "29.09.2014 - 05.10.2014",
+            "profit": "18.20",
+            "inverstorProfit": "3.64%"
+        }
+    ]
+}

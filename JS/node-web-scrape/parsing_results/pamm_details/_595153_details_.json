@@ -1,0 +1,69 @@
+{
+    "number": "595153",
+    "isOpen": "Open",
+    "startingTraiderCapital": "546.00 USD",
+    "currentTraiderCapital": "113.53 USD",
+    "investorsCapital": "0.00 USD",
+    "ralativeDropdown": "81.71%",
+    "maxDropdown": "31.59%",
+    "openTraidsCount": "0",
+    "expectedAnnualProfit": "-972.25%",
+    "openOffertaDate": "02.03.2014 06:55",
+    "firstRollowerDate": "08.03.2014 10:00",
+    "previousRollowerDate": "27.09.2014 12:04",
+    "nextRollowerDate": "04.10.2014 10:00",
+    "monthlyProfit": [
+        {
+            "text": "March 2014",
+            "profit": "-289.61",
+            "inverstorProfit": "-45.50%"
+        },
+        {
+            "text": "April 2014",
+            "profit": "-156.54",
+            "inverstorProfit": "-73.40%"
+        },
+        {
+            "text": "September 2014",
+            "profit": "-15.44",
+            "inverstorProfit": "-11.97%"
+        }
+    ],
+    "weeklyProfit": [
+        {
+            "text": "03.03.2014 - 09.03.2014",
+            "profit": "-317.06",
+            "inverstorProfit": "-58.07%"
+        },
+        {
+            "text": "10.03.2014 - 16.03.2014",
+            "profit": "33.14",
+            "inverstorProfit": "14.48%"
+        },
+        {
+            "text": "17.03.2014 - 23.03.2014",
+            "profit": "-14.51",
+            "inverstorProfit": "-5.54%"
+        },
+        {
+            "text": "24.03.2014 - 30.03.2014",
+            "profit": "12.31",
+            "inverstorProfit": "4.97%"
+        },
+        {
+            "text": "31.03.2014 - 06.04.2014",
+            "profit": "-120.39",
+            "inverstorProfit": "-46.33%"
+        },
+        {
+            "text": "07.04.2014 - 13.04.2014",
+            "profit": "-39.64",
+            "inverstorProfit": "-28.42%"
+        },
+        {
+            "text": "15.09.2014 - 21.09.2014",
+            "profit": "-15.44",
+            "inverstorProfit": "-11.97%"
+        }
+    ]
+}

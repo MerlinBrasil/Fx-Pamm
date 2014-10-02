@@ -1,0 +1,1269 @@
+{
+    "number": "7165",
+    "isOpen": "Open",
+    "startingTraiderCapital": "15000.00 USD",
+    "currentTraiderCapital": "4215468.82 USD",
+    "investorsCapital": "6150983.28 USD",
+    "ralativeDropdown": "31.11%",
+    "maxDropdown": "7.83%",
+    "openTraidsCount": "0",
+    "expectedAnnualProfit": "153.34%",
+    "openOffertaDate": "04.11.2010 11:35",
+    "firstRollowerDate": "13.11.2010 12:00",
+    "previousRollowerDate": "27.09.2014 10:49",
+    "nextRollowerDate": "04.10.2014 10:00",
+    "monthlyProfit": [
+        {
+            "text": "November 2010",
+            "profit": "27157.27",
+            "inverstorProfit": "79.27%"
+        },
+        {
+            "text": "December 2010",
+            "profit": "31119.91",
+            "inverstorProfit": "42.20%"
+        },
+        {
+            "text": "January 2011",
+            "profit": "25782.26",
+            "inverstorProfit": "20.05%"
+        },
+        {
+            "text": "February 2011",
+            "profit": "30915.92",
+            "inverstorProfit": "14.86%"
+        },
+        {
+            "text": "March 2011",
+            "profit": "24934.99",
+            "inverstorProfit": "11.62%"
+        },
+        {
+            "text": "April 2011",
+            "profit": "52618.00",
+            "inverstorProfit": "29.02%"
+        },
+        {
+            "text": "May 2011",
+            "profit": "34643.80",
+            "inverstorProfit": "17.27%"
+        },
+        {
+            "text": "June 2011",
+            "profit": "40799.34",
+            "inverstorProfit": "18.50%"
+        },
+        {
+            "text": "July 2011",
+            "profit": "29822.03",
+            "inverstorProfit": "13.07%"
+        },
+        {
+            "text": "August 2011",
+            "profit": "50239.18",
+            "inverstorProfit": "21.49%"
+        },
+        {
+            "text": "September 2011",
+            "profit": "52452.24",
+            "inverstorProfit": "19.68%"
+        },
+        {
+            "text": "October 2011",
+            "profit": "54445.47",
+            "inverstorProfit": "14.18%"
+        },
+        {
+            "text": "November 2011",
+            "profit": "66992.14",
+            "inverstorProfit": "16.18%"
+        },
+        {
+            "text": "December 2011",
+            "profit": "91960.14",
+            "inverstorProfit": "19.25%"
+        },
+        {
+            "text": "January 2012",
+            "profit": "99057.84",
+            "inverstorProfit": "14.20%"
+        },
+        {
+            "text": "February 2012",
+            "profit": "196102.88",
+            "inverstorProfit": "13.47%"
+        },
+        {
+            "text": "March 2012",
+            "profit": "322390.88",
+            "inverstorProfit": "15.40%"
+        },
+        {
+            "text": "April 2012",
+            "profit": "84592.61",
+            "inverstorProfit": "4.02%"
+        },
+        {
+            "text": "May 2012",
+            "profit": "314029.73",
+            "inverstorProfit": "11.92%"
+        },
+        {
+            "text": "June 2012",
+            "profit": "444304.23",
+            "inverstorProfit": "14.76%"
+        },
+        {
+            "text": "July 2012",
+            "profit": "76385.08",
+            "inverstorProfit": "2.87%"
+        },
+        {
+            "text": "August 2012",
+            "profit": "433078.58",
+            "inverstorProfit": "11.05%"
+        },
+        {
+            "text": "September 2012",
+            "profit": "470930.97",
+            "inverstorProfit": "11.49%"
+        },
+        {
+            "text": "October 2012",
+            "profit": "518136.99",
+            "inverstorProfit": "11.70%"
+        },
+        {
+            "text": "November 2012",
+            "profit": "17938.48",
+            "inverstorProfit": "0.66%"
+        },
+        {
+            "text": "December 2012",
+            "profit": "539230.39",
+            "inverstorProfit": "9.89%"
+        },
+        {
+            "text": "January 2013",
+            "profit": "707333.65",
+            "inverstorProfit": "11.13%"
+        },
+        {
+            "text": "February 2013",
+            "profit": "-186254.65",
+            "inverstorProfit": "-2.34%"
+        },
+        {
+            "text": "March 2013",
+            "profit": "862461.10",
+            "inverstorProfit": "11.39%"
+        },
+        {
+            "text": "April 2013",
+            "profit": "806858.35",
+            "inverstorProfit": "11.00%"
+        },
+        {
+            "text": "May 2013",
+            "profit": "585745.36",
+            "inverstorProfit": "7.90%"
+        },
+        {
+            "text": "June 2013",
+            "profit": "619644.80",
+            "inverstorProfit": "8.09%"
+        },
+        {
+            "text": "July 2013",
+            "profit": "1081616.85",
+            "inverstorProfit": "13.05%"
+        },
+        {
+            "text": "August 2013",
+            "profit": "-853654.67",
+            "inverstorProfit": "-8.65%"
+        },
+        {
+            "text": "September 2013",
+            "profit": "649993.26",
+            "inverstorProfit": "7.73%"
+        },
+        {
+            "text": "October 2013",
+            "profit": "701251.07",
+            "inverstorProfit": "8.58%"
+        },
+        {
+            "text": "November 2013",
+            "profit": "-122666.25",
+            "inverstorProfit": "-0.92%"
+        },
+        {
+            "text": "December 2013",
+            "profit": "631549.81",
+            "inverstorProfit": "7.27%"
+        },
+        {
+            "text": "January 2014",
+            "profit": "742076.12",
+            "inverstorProfit": "8.11%"
+        },
+        {
+            "text": "February 2014",
+            "profit": "734001.85",
+            "inverstorProfit": "7.73%"
+        },
+        {
+            "text": "March 2014",
+            "profit": "631373.39",
+            "inverstorProfit": "6.72%"
+        },
+        {
+            "text": "April 2014",
+            "profit": "850233.26",
+            "inverstorProfit": "9.22%"
+        },
+        {
+            "text": "May 2014",
+            "profit": "-515624.76",
+            "inverstorProfit": "-5.54%"
+        },
+        {
+            "text": "June 2014",
+            "profit": "987377.51",
+            "inverstorProfit": "10.32%"
+        },
+        {
+            "text": "July 2014",
+            "profit": "880160.87",
+            "inverstorProfit": "9.69%"
+        },
+        {
+            "text": "August 2014",
+            "profit": "809965.15",
+            "inverstorProfit": "8.50%"
+        },
+        {
+            "text": "September 2014",
+            "profit": "1032869.42",
+            "inverstorProfit": "10.35%"
+        },
+        {
+            "text": "October 2014",
+            "profit": "114531.90",
+            "inverstorProfit": "1.11%"
+        }
+    ],
+    "weeklyProfit": [
+        {
+            "text": "08.11.2010 - 14.11.2010",
+            "profit": "7359.80",
+            "inverstorProfit": "40.13%"
+        },
+        {
+            "text": "15.11.2010 - 21.11.2010",
+            "profit": "3882.39",
+            "inverstorProfit": "14.20%"
+        },
+        {
+            "text": "22.11.2010 - 28.11.2010",
+            "profit": "7657.51",
+            "inverstorProfit": "17.47%"
+        },
+        {
+            "text": "29.11.2010 - 05.12.2010",
+            "profit": "12688.64",
+            "inverstorProfit": "22.10%"
+        },
+        {
+            "text": "06.12.2010 - 12.12.2010",
+            "profit": "6702.42",
+            "inverstorProfit": "11.67%"
+        },
+        {
+            "text": "13.12.2010 - 19.12.2010",
+            "profit": "5458.04",
+            "inverstorProfit": "5.88%"
+        },
+        {
+            "text": "20.12.2010 - 26.12.2010",
+            "profit": "3475.07",
+            "inverstorProfit": "3.36%"
+        },
+        {
+            "text": "27.12.2010 - 02.01.2011",
+            "profit": "7057.63",
+            "inverstorProfit": "6.66%"
+        },
+        {
+            "text": "03.01.2011 - 09.01.2011",
+            "profit": "3790.13",
+            "inverstorProfit": "3.72%"
+        },
+        {
+            "text": "10.01.2011 - 16.01.2011",
+            "profit": "8531.15",
+            "inverstorProfit": "6.77%"
+        },
+        {
+            "text": "17.01.2011 - 23.01.2011",
+            "profit": "3189.86",
+            "inverstorProfit": "2.48%"
+        },
+        {
+            "text": "24.01.2011 - 30.01.2011",
+            "profit": "6227.12",
+            "inverstorProfit": "4.40%"
+        },
+        {
+            "text": "31.01.2011 - 06.02.2011",
+            "profit": "11454.44",
+            "inverstorProfit": "7.12%"
+        },
+        {
+            "text": "07.02.2011 - 13.02.2011",
+            "profit": "11413.97",
+            "inverstorProfit": "5.12%"
+        },
+        {
+            "text": "14.02.2011 - 20.02.2011",
+            "profit": "4084.01",
+            "inverstorProfit": "1.73%"
+        },
+        {
+            "text": "21.02.2011 - 27.02.2011",
+            "profit": "8007.50",
+            "inverstorProfit": "3.57%"
+        },
+        {
+            "text": "28.02.2011 - 06.03.2011",
+            "profit": "8679.81",
+            "inverstorProfit": "3.82%"
+        },
+        {
+            "text": "07.03.2011 - 13.03.2011",
+            "profit": "1610.43",
+            "inverstorProfit": "0.71%"
+        },
+        {
+            "text": "14.03.2011 - 20.03.2011",
+            "profit": "19410.77",
+            "inverstorProfit": "9.49%"
+        },
+        {
+            "text": "21.03.2011 - 27.03.2011",
+            "profit": "5717.25",
+            "inverstorProfit": "2.88%"
+        },
+        {
+            "text": "28.03.2011 - 03.04.2011",
+            "profit": "2755.40",
+            "inverstorProfit": "1.32%"
+        },
+        {
+            "text": "04.04.2011 - 10.04.2011",
+            "profit": "9070.32",
+            "inverstorProfit": "5.10%"
+        },
+        {
+            "text": "11.04.2011 - 17.04.2011",
+            "profit": "10207.58",
+            "inverstorProfit": "6.13%"
+        },
+        {
+            "text": "18.04.2011 - 24.04.2011",
+            "profit": "13063.43",
+            "inverstorProfit": "7.52%"
+        },
+        {
+            "text": "25.04.2011 - 01.05.2011",
+            "profit": "7038.00",
+            "inverstorProfit": "3.67%"
+        },
+        {
+            "text": "02.05.2011 - 08.05.2011",
+            "profit": "9654.00",
+            "inverstorProfit": "4.52%"
+        },
+        {
+            "text": "09.05.2011 - 15.05.2011",
+            "profit": "6223.84",
+            "inverstorProfit": "3.00%"
+        },
+        {
+            "text": "16.05.2011 - 22.05.2011",
+            "profit": "1327.96",
+            "inverstorProfit": "1.02%"
+        },
+        {
+            "text": "23.05.2011 - 29.05.2011",
+            "profit": "10613.00",
+            "inverstorProfit": "5.45%"
+        },
+        {
+            "text": "30.05.2011 - 05.06.2011",
+            "profit": "6552.99",
+            "inverstorProfit": "3.17%"
+        },
+        {
+            "text": "06.06.2011 - 12.06.2011",
+            "profit": "7157.56",
+            "inverstorProfit": "3.16%"
+        },
+        {
+            "text": "13.06.2011 - 19.06.2011",
+            "profit": "8869.83",
+            "inverstorProfit": "4.23%"
+        },
+        {
+            "text": "20.06.2011 - 26.06.2011",
+            "profit": "13445.90",
+            "inverstorProfit": "6.22%"
+        },
+        {
+            "text": "27.06.2011 - 03.07.2011",
+            "profit": "11598.06",
+            "inverstorProfit": "5.01%"
+        },
+        {
+            "text": "04.07.2011 - 10.07.2011",
+            "profit": "9126.17",
+            "inverstorProfit": "4.41%"
+        },
+        {
+            "text": "11.07.2011 - 17.07.2011",
+            "profit": "8516.40",
+            "inverstorProfit": "3.68%"
+        },
+        {
+            "text": "18.07.2011 - 24.07.2011",
+            "profit": "7634.33",
+            "inverstorProfit": "3.06%"
+        },
+        {
+            "text": "25.07.2011 - 31.07.2011",
+            "profit": "4545.13",
+            "inverstorProfit": "1.93%"
+        },
+        {
+            "text": "01.08.2011 - 07.08.2011",
+            "profit": "8325.69",
+            "inverstorProfit": "4.94%"
+        },
+        {
+            "text": "08.08.2011 - 14.08.2011",
+            "profit": "16280.00",
+            "inverstorProfit": "7.19%"
+        },
+        {
+            "text": "15.08.2011 - 21.08.2011",
+            "profit": "7705.01",
+            "inverstorProfit": "2.86%"
+        },
+        {
+            "text": "22.08.2011 - 28.08.2011",
+            "profit": "16042.88",
+            "inverstorProfit": "5.78%"
+        },
+        {
+            "text": "29.08.2011 - 04.09.2011",
+            "profit": "14476.00",
+            "inverstorProfit": "5.42%"
+        },
+        {
+            "text": "05.09.2011 - 11.09.2011",
+            "profit": "-10268.13",
+            "inverstorProfit": "-3.78%"
+        },
+        {
+            "text": "12.09.2011 - 18.09.2011",
+            "profit": "19823.29",
+            "inverstorProfit": "7.61%"
+        },
+        {
+            "text": "19.09.2011 - 25.09.2011",
+            "profit": "17354.08",
+            "inverstorProfit": "6.54%"
+        },
+        {
+            "text": "26.09.2011 - 02.10.2011",
+            "profit": "12952.60",
+            "inverstorProfit": "4.61%"
+        },
+        {
+            "text": "03.10.2011 - 09.10.2011",
+            "profit": "11316.95",
+            "inverstorProfit": "3.24%"
+        },
+        {
+            "text": "10.10.2011 - 16.10.2011",
+            "profit": "20270.72",
+            "inverstorProfit": "5.14%"
+        },
+        {
+            "text": "17.10.2011 - 23.10.2011",
+            "profit": "27157.95",
+            "inverstorProfit": "6.82%"
+        },
+        {
+            "text": "24.10.2011 - 30.10.2011",
+            "profit": "-12460.15",
+            "inverstorProfit": "-2.90%"
+        },
+        {
+            "text": "31.10.2011 - 06.11.2011",
+            "profit": "17111.93",
+            "inverstorProfit": "3.95%"
+        },
+        {
+            "text": "07.11.2011 - 13.11.2011",
+            "profit": "11268.26",
+            "inverstorProfit": "2.76%"
+        },
+        {
+            "text": "14.11.2011 - 20.11.2011",
+            "profit": "23125.00",
+            "inverstorProfit": "5.57%"
+        },
+        {
+            "text": "21.11.2011 - 27.11.2011",
+            "profit": "11357.64",
+            "inverstorProfit": "2.81%"
+        },
+        {
+            "text": "28.11.2011 - 04.12.2011",
+            "profit": "12289.31",
+            "inverstorProfit": "2.99%"
+        },
+        {
+            "text": "05.12.2011 - 11.12.2011",
+            "profit": "13290.53",
+            "inverstorProfit": "3.06%"
+        },
+        {
+            "text": "12.12.2011 - 18.12.2011",
+            "profit": "24896.73",
+            "inverstorProfit": "5.57%"
+        },
+        {
+            "text": "19.12.2011 - 25.12.2011",
+            "profit": "20361.38",
+            "inverstorProfit": "4.21%"
+        },
+        {
+            "text": "26.12.2011 - 01.01.2012",
+            "profit": "33411.50",
+            "inverstorProfit": "6.41%"
+        },
+        {
+            "text": "02.01.2012 - 08.01.2012",
+            "profit": "15190.00",
+            "inverstorProfit": "2.71%"
+        },
+        {
+            "text": "09.01.2012 - 15.01.2012",
+            "profit": "38264.84",
+            "inverstorProfit": "5.83%"
+        },
+        {
+            "text": "16.01.2012 - 22.01.2012",
+            "profit": "31683.00",
+            "inverstorProfit": "3.70%"
+        },
+        {
+            "text": "23.01.2012 - 29.01.2012",
+            "profit": "40606.50",
+            "inverstorProfit": "4.86%"
+        },
+        {
+            "text": "30.01.2012 - 05.02.2012",
+            "profit": "-15606.09",
+            "inverstorProfit": "-1.73%"
+        },
+        {
+            "text": "06.02.2012 - 12.02.2012",
+            "profit": "41275.00",
+            "inverstorProfit": "2.97%"
+        },
+        {
+            "text": "13.02.2012 - 19.02.2012",
+            "profit": "70125.47",
+            "inverstorProfit": "4.74%"
+        },
+        {
+            "text": "20.02.2012 - 26.02.2012",
+            "profit": "86087.00",
+            "inverstorProfit": "5.27%"
+        },
+        {
+            "text": "27.02.2012 - 04.03.2012",
+            "profit": "85973.00",
+            "inverstorProfit": "4.59%"
+        },
+        {
+            "text": "05.03.2012 - 11.03.2012",
+            "profit": "46061.50",
+            "inverstorProfit": "2.28%"
+        },
+        {
+            "text": "12.03.2012 - 18.03.2012",
+            "profit": "67448.11",
+            "inverstorProfit": "3.15%"
+        },
+        {
+            "text": "19.03.2012 - 25.03.2012",
+            "profit": "35989.54",
+            "inverstorProfit": "1.51%"
+        },
+        {
+            "text": "26.03.2012 - 01.04.2012",
+            "profit": "74453.73",
+            "inverstorProfit": "3.20%"
+        },
+        {
+            "text": "02.04.2012 - 08.04.2012",
+            "profit": "83972.09",
+            "inverstorProfit": "3.39%"
+        },
+        {
+            "text": "09.04.2012 - 15.04.2012",
+            "profit": "69247.37",
+            "inverstorProfit": "2.59%"
+        },
+        {
+            "text": "16.04.2012 - 22.04.2012",
+            "profit": "-237599.28",
+            "inverstorProfit": "-9.04%"
+        },
+        {
+            "text": "23.04.2012 - 29.04.2012",
+            "profit": "168972.43",
+            "inverstorProfit": "7.07%"
+        },
+        {
+            "text": "30.04.2012 - 06.05.2012",
+            "profit": "58438.02",
+            "inverstorProfit": "2.27%"
+        },
+        {
+            "text": "07.05.2012 - 13.05.2012",
+            "profit": "112802.77",
+            "inverstorProfit": "4.23%"
+        },
+        {
+            "text": "14.05.2012 - 20.05.2012",
+            "profit": "77913.43",
+            "inverstorProfit": "2.99%"
+        },
+        {
+            "text": "21.05.2012 - 27.05.2012",
+            "profit": "73071.32",
+            "inverstorProfit": "2.69%"
+        },
+        {
+            "text": "28.05.2012 - 03.06.2012",
+            "profit": "72249.19",
+            "inverstorProfit": "2.62%"
+        },
+        {
+            "text": "04.06.2012 - 10.06.2012",
+            "profit": "80432.78",
+            "inverstorProfit": "2.83%"
+        },
+        {
+            "text": "11.06.2012 - 17.06.2012",
+            "profit": "96422.68",
+            "inverstorProfit": "3.21%"
+        },
+        {
+            "text": "18.06.2012 - 24.06.2012",
+            "profit": "126476.43",
+            "inverstorProfit": "3.96%"
+        },
+        {
+            "text": "25.06.2012 - 01.07.2012",
+            "profit": "60527.34",
+            "inverstorProfit": "1.90%"
+        },
+        {
+            "text": "02.07.2012 - 08.07.2012",
+            "profit": "157859.61",
+            "inverstorProfit": "4.89%"
+        },
+        {
+            "text": "09.07.2012 - 15.07.2012",
+            "profit": "-304704.50",
+            "inverstorProfit": "-8.48%"
+        },
+        {
+            "text": "16.07.2012 - 22.07.2012",
+            "profit": "136569.24",
+            "inverstorProfit": "4.04%"
+        },
+        {
+            "text": "23.07.2012 - 29.07.2012",
+            "profit": "86660.73",
+            "inverstorProfit": "2.42%"
+        },
+        {
+            "text": "30.07.2012 - 05.08.2012",
+            "profit": "47989.05",
+            "inverstorProfit": "1.26%"
+        },
+        {
+            "text": "06.08.2012 - 12.08.2012",
+            "profit": "88184.16",
+            "inverstorProfit": "2.33%"
+        },
+        {
+            "text": "13.08.2012 - 19.08.2012",
+            "profit": "116728.34",
+            "inverstorProfit": "3.05%"
+        },
+        {
+            "text": "20.08.2012 - 26.08.2012",
+            "profit": "115053.80",
+            "inverstorProfit": "2.84%"
+        },
+        {
+            "text": "27.08.2012 - 02.09.2012",
+            "profit": "65123.23",
+            "inverstorProfit": "1.58%"
+        },
+        {
+            "text": "03.09.2012 - 09.09.2012",
+            "profit": "90436.29",
+            "inverstorProfit": "2.30%"
+        },
+        {
+            "text": "10.09.2012 - 16.09.2012",
+            "profit": "174183.30",
+            "inverstorProfit": "4.21%"
+        },
+        {
+            "text": "17.09.2012 - 23.09.2012",
+            "profit": "103156.45",
+            "inverstorProfit": "2.39%"
+        },
+        {
+            "text": "24.09.2012 - 30.09.2012",
+            "profit": "103154.93",
+            "inverstorProfit": "2.59%"
+        },
+        {
+            "text": "01.10.2012 - 07.10.2012",
+            "profit": "105610.33",
+            "inverstorProfit": "2.61%"
+        },
+        {
+            "text": "08.10.2012 - 14.10.2012",
+            "profit": "96963.09",
+            "inverstorProfit": "2.30%"
+        },
+        {
+            "text": "15.10.2012 - 21.10.2012",
+            "profit": "79817.70",
+            "inverstorProfit": "1.82%"
+        },
+        {
+            "text": "22.10.2012 - 28.10.2012",
+            "profit": "114428.93",
+            "inverstorProfit": "2.52%"
+        },
+        {
+            "text": "29.10.2012 - 04.11.2012",
+            "profit": "186540.73",
+            "inverstorProfit": "3.77%"
+        },
+        {
+            "text": "05.11.2012 - 11.11.2012",
+            "profit": "-449640.16",
+            "inverstorProfit": "-8.79%"
+        },
+        {
+            "text": "12.11.2012 - 18.11.2012",
+            "profit": "135092.92",
+            "inverstorProfit": "2.81%"
+        },
+        {
+            "text": "19.11.2012 - 25.11.2012",
+            "profit": "99496.91",
+            "inverstorProfit": "2.03%"
+        },
+        {
+            "text": "26.11.2012 - 02.12.2012",
+            "profit": "167765.02",
+            "inverstorProfit": "3.29%"
+        },
+        {
+            "text": "03.12.2012 - 09.12.2012",
+            "profit": "147657.82",
+            "inverstorProfit": "2.84%"
+        },
+        {
+            "text": "10.12.2012 - 16.12.2012",
+            "profit": "100323.45",
+            "inverstorProfit": "1.89%"
+        },
+        {
+            "text": "17.12.2012 - 23.12.2012",
+            "profit": "194425.22",
+            "inverstorProfit": "3.51%"
+        },
+        {
+            "text": "24.12.2012 - 30.12.2012",
+            "profit": "96823.90",
+            "inverstorProfit": "1.66%"
+        },
+        {
+            "text": "07.01.2013 - 13.01.2013",
+            "profit": "160446.56",
+            "inverstorProfit": "2.70%"
+        },
+        {
+            "text": "14.01.2013 - 20.01.2013",
+            "profit": "193965.62",
+            "inverstorProfit": "3.16%"
+        },
+        {
+            "text": "21.01.2013 - 27.01.2013",
+            "profit": "186545.38",
+            "inverstorProfit": "2.83%"
+        },
+        {
+            "text": "28.01.2013 - 03.02.2013",
+            "profit": "166376.09",
+            "inverstorProfit": "2.44%"
+        },
+        {
+            "text": "04.02.2013 - 10.02.2013",
+            "profit": "149023.05",
+            "inverstorProfit": "2.18%"
+        },
+        {
+            "text": "11.02.2013 - 17.02.2013",
+            "profit": "-737162.03",
+            "inverstorProfit": "-9.80%"
+        },
+        {
+            "text": "18.02.2013 - 24.02.2013",
+            "profit": "225578.57",
+            "inverstorProfit": "3.07%"
+        },
+        {
+            "text": "25.02.2013 - 03.03.2013",
+            "profit": "176305.76",
+            "inverstorProfit": "2.21%"
+        },
+        {
+            "text": "04.03.2013 - 10.03.2013",
+            "profit": "306033.16",
+            "inverstorProfit": "3.59%"
+        },
+        {
+            "text": "11.03.2013 - 17.03.2013",
+            "profit": "170236.97",
+            "inverstorProfit": "2.48%"
+        },
+        {
+            "text": "18.03.2013 - 24.03.2013",
+            "profit": "166123.38",
+            "inverstorProfit": "2.31%"
+        },
+        {
+            "text": "25.03.2013 - 31.03.2013",
+            "profit": "220067.59",
+            "inverstorProfit": "3.01%"
+        },
+        {
+            "text": "01.04.2013 - 07.04.2013",
+            "profit": "84424.65",
+            "inverstorProfit": "1.14%"
+        },
+        {
+            "text": "08.04.2013 - 14.04.2013",
+            "profit": "204454.84",
+            "inverstorProfit": "2.75%"
+        },
+        {
+            "text": "15.04.2013 - 21.04.2013",
+            "profit": "186432.93",
+            "inverstorProfit": "2.51%"
+        },
+        {
+            "text": "22.04.2013 - 28.04.2013",
+            "profit": "200173.31",
+            "inverstorProfit": "2.78%"
+        },
+        {
+            "text": "29.04.2013 - 05.05.2013",
+            "profit": "131372.62",
+            "inverstorProfit": "1.81%"
+        },
+        {
+            "text": "06.05.2013 - 12.05.2013",
+            "profit": "102984.38",
+            "inverstorProfit": "1.41%"
+        },
+        {
+            "text": "13.05.2013 - 19.05.2013",
+            "profit": "113502.00",
+            "inverstorProfit": "1.53%"
+        },
+        {
+            "text": "20.05.2013 - 26.05.2013",
+            "profit": "220501.33",
+            "inverstorProfit": "2.99%"
+        },
+        {
+            "text": "27.05.2013 - 02.06.2013",
+            "profit": "148757.65",
+            "inverstorProfit": "1.96%"
+        },
+        {
+            "text": "03.06.2013 - 09.06.2013",
+            "profit": "135181.18",
+            "inverstorProfit": "1.71%"
+        },
+        {
+            "text": "10.06.2013 - 16.06.2013",
+            "profit": "125486.18",
+            "inverstorProfit": "1.60%"
+        },
+        {
+            "text": "17.06.2013 - 23.06.2013",
+            "profit": "133240.87",
+            "inverstorProfit": "1.77%"
+        },
+        {
+            "text": "24.06.2013 - 30.06.2013",
+            "profit": "225736.57",
+            "inverstorProfit": "3.01%"
+        },
+        {
+            "text": "01.07.2013 - 07.07.2013",
+            "profit": "154343.67",
+            "inverstorProfit": "1.93%"
+        },
+        {
+            "text": "08.07.2013 - 14.07.2013",
+            "profit": "213686.37",
+            "inverstorProfit": "2.81%"
+        },
+        {
+            "text": "15.07.2013 - 21.07.2013",
+            "profit": "236657.39",
+            "inverstorProfit": "2.86%"
+        },
+        {
+            "text": "22.07.2013 - 28.07.2013",
+            "profit": "171050.00",
+            "inverstorProfit": "1.98%"
+        },
+        {
+            "text": "29.07.2013 - 04.08.2013",
+            "profit": "305879.42",
+            "inverstorProfit": "3.47%"
+        },
+        {
+            "text": "05.08.2013 - 11.08.2013",
+            "profit": "144632.36",
+            "inverstorProfit": "1.64%"
+        },
+        {
+            "text": "12.08.2013 - 18.08.2013",
+            "profit": "198254.07",
+            "inverstorProfit": "2.22%"
+        },
+        {
+            "text": "19.08.2013 - 25.08.2013",
+            "profit": "-1366871.26",
+            "inverstorProfit": "-14.54%"
+        },
+        {
+            "text": "26.08.2013 - 01.09.2013",
+            "profit": "170330.16",
+            "inverstorProfit": "2.04%"
+        },
+        {
+            "text": "02.09.2013 - 08.09.2013",
+            "profit": "216836.04",
+            "inverstorProfit": "2.59%"
+        },
+        {
+            "text": "09.09.2013 - 15.09.2013",
+            "profit": "141032.25",
+            "inverstorProfit": "1.69%"
+        },
+        {
+            "text": "16.09.2013 - 22.09.2013",
+            "profit": "123055.88",
+            "inverstorProfit": "1.45%"
+        },
+        {
+            "text": "23.09.2013 - 29.09.2013",
+            "profit": "169069.09",
+            "inverstorProfit": "2.00%"
+        },
+        {
+            "text": "30.09.2013 - 06.10.2013",
+            "profit": "104736.30",
+            "inverstorProfit": "1.27%"
+        },
+        {
+            "text": "07.10.2013 - 13.10.2013",
+            "profit": "116486.15",
+            "inverstorProfit": "1.43%"
+        },
+        {
+            "text": "14.10.2013 - 20.10.2013",
+            "profit": "92772.12",
+            "inverstorProfit": "1.14%"
+        },
+        {
+            "text": "21.10.2013 - 27.10.2013",
+            "profit": "223212.79",
+            "inverstorProfit": "2.76%"
+        },
+        {
+            "text": "28.10.2013 - 03.11.2013",
+            "profit": "164043.71",
+            "inverstorProfit": "1.98%"
+        },
+        {
+            "text": "04.11.2013 - 10.11.2013",
+            "profit": "250709.61",
+            "inverstorProfit": "2.95%"
+        },
+        {
+            "text": "11.11.2013 - 17.11.2013",
+            "profit": "-869372.54",
+            "inverstorProfit": "-9.63%"
+        },
+        {
+            "text": "18.11.2013 - 24.11.2013",
+            "profit": "304920.00",
+            "inverstorProfit": "3.57%"
+        },
+        {
+            "text": "25.11.2013 - 01.12.2013",
+            "profit": "191076.68",
+            "inverstorProfit": "2.19%"
+        },
+        {
+            "text": "02.12.2013 - 08.12.2013",
+            "profit": "116619.41",
+            "inverstorProfit": "1.37%"
+        },
+        {
+            "text": "09.12.2013 - 15.12.2013",
+            "profit": "228093.41",
+            "inverstorProfit": "2.73%"
+        },
+        {
+            "text": "16.12.2013 - 22.12.2013",
+            "profit": "204334.68",
+            "inverstorProfit": "2.27%"
+        },
+        {
+            "text": "23.12.2013 - 29.12.2013",
+            "profit": "82502.31",
+            "inverstorProfit": "0.92%"
+        },
+        {
+            "text": "06.01.2014 - 12.01.2014",
+            "profit": "117536.90",
+            "inverstorProfit": "1.28%"
+        },
+        {
+            "text": "13.01.2014 - 19.01.2014",
+            "profit": "145293.01",
+            "inverstorProfit": "1.59%"
+        },
+        {
+            "text": "20.01.2014 - 26.01.2014",
+            "profit": "207351.32",
+            "inverstorProfit": "2.26%"
+        },
+        {
+            "text": "27.01.2014 - 02.02.2014",
+            "profit": "271894.89",
+            "inverstorProfit": "2.99%"
+        },
+        {
+            "text": "03.02.2014 - 09.02.2014",
+            "profit": "262065.37",
+            "inverstorProfit": "2.79%"
+        },
+        {
+            "text": "10.02.2014 - 16.02.2014",
+            "profit": "185644.76",
+            "inverstorProfit": "1.94%"
+        },
+        {
+            "text": "17.02.2014 - 23.02.2014",
+            "profit": "147098.67",
+            "inverstorProfit": "1.51%"
+        },
+        {
+            "text": "24.02.2014 - 02.03.2014",
+            "profit": "139193.05",
+            "inverstorProfit": "1.50%"
+        },
+        {
+            "text": "03.03.2014 - 09.03.2014",
+            "profit": "203708.67",
+            "inverstorProfit": "2.17%"
+        },
+        {
+            "text": "10.03.2014 - 16.03.2014",
+            "profit": "116259.97",
+            "inverstorProfit": "1.18%"
+        },
+        {
+            "text": "17.03.2014 - 23.03.2014",
+            "profit": "98559.77",
+            "inverstorProfit": "1.04%"
+        },
+        {
+            "text": "24.03.2014 - 30.03.2014",
+            "profit": "212844.98",
+            "inverstorProfit": "2.33%"
+        },
+        {
+            "text": "31.03.2014 - 06.04.2014",
+            "profit": "182940.04",
+            "inverstorProfit": "2.00%"
+        },
+        {
+            "text": "07.04.2014 - 13.04.2014",
+            "profit": "197227.72",
+            "inverstorProfit": "2.11%"
+        },
+        {
+            "text": "14.04.2014 - 20.04.2014",
+            "profit": "226154.36",
+            "inverstorProfit": "2.46%"
+        },
+        {
+            "text": "21.04.2014 - 27.04.2014",
+            "profit": "128385.73",
+            "inverstorProfit": "1.39%"
+        },
+        {
+            "text": "28.04.2014 - 04.05.2014",
+            "profit": "115525.41",
+            "inverstorProfit": "1.25%"
+        },
+        {
+            "text": "05.05.2014 - 11.05.2014",
+            "profit": "-1011444.80",
+            "inverstorProfit": "-11.10%"
+        },
+        {
+            "text": "12.05.2014 - 18.05.2014",
+            "profit": "206570.61",
+            "inverstorProfit": "2.41%"
+        },
+        {
+            "text": "19.05.2014 - 25.05.2014",
+            "profit": "175512.14",
+            "inverstorProfit": "1.91%"
+        },
+        {
+            "text": "26.05.2014 - 01.06.2014",
+            "profit": "113737.29",
+            "inverstorProfit": "1.23%"
+        },
+        {
+            "text": "02.06.2014 - 08.06.2014",
+            "profit": "307525.61",
+            "inverstorProfit": "3.25%"
+        },
+        {
+            "text": "09.06.2014 - 15.06.2014",
+            "profit": "220611.39",
+            "inverstorProfit": "2.28%"
+        },
+        {
+            "text": "16.06.2014 - 22.06.2014",
+            "profit": "230783.14",
+            "inverstorProfit": "2.39%"
+        },
+        {
+            "text": "23.06.2014 - 29.06.2014",
+            "profit": "228457.37",
+            "inverstorProfit": "2.41%"
+        },
+        {
+            "text": "30.06.2014 - 06.07.2014",
+            "profit": "145514.40",
+            "inverstorProfit": "1.50%"
+        },
+        {
+            "text": "07.07.2014 - 13.07.2014",
+            "profit": "112000.00",
+            "inverstorProfit": "1.17%"
+        },
+        {
+            "text": "14.07.2014 - 20.07.2014",
+            "profit": "87466.37",
+            "inverstorProfit": "0.98%"
+        },
+        {
+            "text": "21.07.2014 - 27.07.2014",
+            "profit": "282312.04",
+            "inverstorProfit": "3.20%"
+        },
+        {
+            "text": "28.07.2014 - 03.08.2014",
+            "profit": "252868.06",
+            "inverstorProfit": "2.84%"
+        },
+        {
+            "text": "04.08.2014 - 10.08.2014",
+            "profit": "185603.44",
+            "inverstorProfit": "2.00%"
+        },
+        {
+            "text": "11.08.2014 - 17.08.2014",
+            "profit": "124291.11",
+            "inverstorProfit": "1.33%"
+        },
+        {
+            "text": "18.08.2014 - 24.08.2014",
+            "profit": "274752.41",
+            "inverstorProfit": "2.88%"
+        },
+        {
+            "text": "25.08.2014 - 31.08.2014",
+            "profit": "225318.19",
+            "inverstorProfit": "2.30%"
+        },
+        {
+            "text": "01.09.2014 - 07.09.2014",
+            "profit": "200200.00",
+            "inverstorProfit": "2.02%"
+        },
+        {
+            "text": "08.09.2014 - 14.09.2014",
+            "profit": "295755.41",
+            "inverstorProfit": "2.98%"
+        },
+        {
+            "text": "15.09.2014 - 21.09.2014",
+            "profit": "360537.40",
+            "inverstorProfit": "3.62%"
+        },
+        {
+            "text": "22.09.2014 - 28.09.2014",
+            "profit": "176376.61",
+            "inverstorProfit": "1.73%"
+        },
+        {
+            "text": "29.09.2014 - 05.10.2014",
+            "profit": "114531.90",
+            "inverstorProfit": "1.11%"
+        }
+    ]
+}

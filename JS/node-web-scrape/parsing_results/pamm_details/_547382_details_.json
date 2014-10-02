@@ -1,0 +1,144 @@
+{
+    "number": "547382",
+    "isOpen": "Open",
+    "startingTraiderCapital": "500.00 USD",
+    "currentTraiderCapital": "372.90 USD",
+    "investorsCapital": "0.00 USD",
+    "ralativeDropdown": "59.34%",
+    "maxDropdown": "8.45%",
+    "openTraidsCount": "0",
+    "expectedAnnualProfit": "-82.13%",
+    "openOffertaDate": "10.09.2013 10:13",
+    "firstRollowerDate": "14.09.2013 13:23",
+    "previousRollowerDate": "27.09.2014 11:22",
+    "nextRollowerDate": "11.10.2014 10:00",
+    "monthlyProfit": [
+        {
+            "text": "September 2013",
+            "profit": "128.99",
+            "inverstorProfit": "24.95%"
+        },
+        {
+            "text": "October 2013",
+            "profit": "-249.87",
+            "inverstorProfit": "-38.65%"
+        },
+        {
+            "text": "December 2013",
+            "profit": "33.00",
+            "inverstorProfit": "8.70%"
+        },
+        {
+            "text": "January 2014",
+            "profit": "44.60",
+            "inverstorProfit": "10.64%"
+        },
+        {
+            "text": "June 2014",
+            "profit": "-192.80",
+            "inverstorProfit": "-32.38%"
+        },
+        {
+            "text": "July 2014",
+            "profit": "-62.60",
+            "inverstorProfit": "-4.45%"
+        },
+        {
+            "text": "September 2014",
+            "profit": "10.00",
+            "inverstorProfit": "2.76%"
+        }
+    ],
+    "weeklyProfit": [
+        {
+            "text": "09.09.2013 - 15.09.2013",
+            "profit": "100.90",
+            "inverstorProfit": "20.18%"
+        },
+        {
+            "text": "16.09.2013 - 22.09.2013",
+            "profit": "-200.81",
+            "inverstorProfit": "-33.42%"
+        },
+        {
+            "text": "23.09.2013 - 29.09.2013",
+            "profit": "191.90",
+            "inverstorProfit": "31.94%"
+        },
+        {
+            "text": "30.09.2013 - 06.10.2013",
+            "profit": "63.40",
+            "inverstorProfit": "10.71%"
+        },
+        {
+            "text": "07.10.2013 - 13.10.2013",
+            "profit": "-306.47",
+            "inverstorProfit": "-51.77%"
+        },
+        {
+            "text": "14.10.2013 - 20.10.2013",
+            "profit": "30.20",
+            "inverstorProfit": "8.66%"
+        },
+        {
+            "text": "09.12.2013 - 15.12.2013",
+            "profit": "33.00",
+            "inverstorProfit": "8.70%"
+        },
+        {
+            "text": "13.01.2014 - 19.01.2014",
+            "profit": "9.10",
+            "inverstorProfit": "2.21%"
+        },
+        {
+            "text": "20.01.2014 - 26.01.2014",
+            "profit": "35.50",
+            "inverstorProfit": "8.43%"
+        },
+        {
+            "text": "09.06.2014 - 15.06.2014",
+            "profit": "0.20",
+            "inverstorProfit": "0.03%"
+        },
+        {
+            "text": "16.06.2014 - 22.06.2014",
+            "profit": "-26.60",
+            "inverstorProfit": "-4.30%"
+        },
+        {
+            "text": "23.06.2014 - 29.06.2014",
+            "profit": "11.00",
+            "inverstorProfit": "1.86%"
+        },
+        {
+            "text": "30.06.2014 - 06.07.2014",
+            "profit": "-277.45",
+            "inverstorProfit": "-46.87%"
+        },
+        {
+            "text": "07.07.2014 - 13.07.2014",
+            "profit": "-48.75",
+            "inverstorProfit": "-14.98%"
+        },
+        {
+            "text": "14.07.2014 - 20.07.2014",
+            "profit": "106.60",
+            "inverstorProfit": "32.75%"
+        },
+        {
+            "text": "21.07.2014 - 27.07.2014",
+            "profit": "-20.40",
+            "inverstorProfit": "-5.32%"
+        },
+        {
+            "text": "22.09.2014 - 28.09.2014",
+            "profit": "11.00",
+            "inverstorProfit": "3.03%"
+        },
+        {
+            "text": "29.09.2014 - 05.10.2014",
+            "profit": "-1.00",
+            "inverstorProfit": "-0.27%"
+        }
+    ]
+}
